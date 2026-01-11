@@ -30,7 +30,7 @@ export const validateLogin = (req, res, next) => {
   }
 
   if (!password) {
-    errors.push('Password is required');
+    errors.push('Password is required');            
   }
 
   if (errors.length > 0) {
